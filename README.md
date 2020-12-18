@@ -1,16 +1,25 @@
-# windows_title_bar
+# Flutter Windows Title Bar
 
-A new Flutter project.
+Is Worked in Android And Windows But Web
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+> ^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:470:20: Error: 'IntPtr' isn't a type.
+    Int32 Function(IntPtr hMonitor, Pointer<MONITORINFO> lpmi),
+                   ^^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:470:37: Error: 'Pointer' isn't a type.
+    Int32 Function(IntPtr hMonitor, Pointer<MONITORINFO> lpmi),
+                                    ^^^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:471:32: Error: 'Pointer' isn't a type.
+    int Function(int hMonitor, Pointer<MONITORINFO> lpmi)>('GetMonitorInfoW');
+                               ^^^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:481:42: Error: 'IntPtr' isn't a type.
+final GetParent = _user32.lookupFunction<IntPtr Function(IntPtr hWnd),
+                                         ^^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:481:58: Error: 'IntPtr' isn't a type.
+final GetParent = _user32.lookupFunction<IntPtr Function(IntPtr hWnd),
+                                                         ^^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:497:5: Error: 'Int32' isn't a type.
+    Int32 Function(IntPtr hwnd, Int32 nBar, Pointer<SCROLLINFO> lpsi),
+    ^^^^^
+../../../AppData/Roaming/Pub/Cache/hosted/pub.dartlang.org/win32-1.7.4/lib/src/user32.dart:497:20: Error: 'IntPtr' isn't a type.
+    Int32 Function(IntPtr hwnd, Int32 nBar, Pointer<SCROLLINFO> lpsi),
